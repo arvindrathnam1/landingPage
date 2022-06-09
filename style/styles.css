@@ -3,11 +3,13 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: Roboto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 30px 30px;
 }
 
 ul {
@@ -28,6 +30,8 @@ a {
 .description {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+    gap: 10px;
 }
 
 .img-placeholder {
@@ -37,13 +41,15 @@ a {
 
 .one {
     background-color: #1F2937;
-    padding: 10px 10% 60px 10%;
+    padding: 10px 15% 30px 15%;
 }
 
 .left-text {
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8
+    font-weight: bolder;
+    color: #F9FAF8;
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -60,8 +66,38 @@ a {
 .left,
 .right {
     width: 50%;
+    height: 100%;
 }
 
 .img-placeholder {
     background-color: darkgrey;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 20%;
+    border-color: #3882F6;
+}
+
+.description-text{
+    margin-bottom: 10px ;
+}
+
+.img-rect{
+    fill: darkgrey;
+}
+
+.images-illustrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
